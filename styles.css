@@ -180,7 +180,13 @@ footer.blockquote-footer {
   transform: translate(0);
 }
 
+.social-links a{
+ color: #FFFFFF;
+}
 
+.social-links a:hover{
+  color: #FFFFFF;
+ }
 
 
 
