@@ -4,13 +4,12 @@ body{
   background-color: #d7d7d7 !important;
   width: 100%;
   height: 100vh;
-  --color: #e1e1e1;
   background-color: #f3f3f3;
+  --color: #e1e1e1;
+  --clr: #7808d0;
   background-image: linear-gradient(0deg, transparent 24%, var(--color) 25%, var(--color) 26%, transparent 27%, transparent 74%, var(--color) 75%, var(--color) 76%, transparent 77%, transparent),
   linear-gradient(90deg, transparent 24%, var(--color) 25%, var(--color) 26%, transparent 27%, transparent 74%, var(--color) 75%, var(--color) 76%, transparent 77%, transparent);
   background-size: 55px 55px;
-  
-  --clr: #7808d0;
 }
 
 html {
@@ -24,15 +23,15 @@ html {
 /* HEADER */
 header {
   background-color: #333;
-  border-radius: 0; /* Remove border-radius for a clean, modern look */
+  border-radius: 0; 
   color: #fff;
   padding: 10px 20px;
-  position: fixed; /* Fixed position to keep the header at the top */
+  position: fixed; 
   top: 10px !important;
   left: 0;
-  width: 100%; /* Full width to cover the viewport */
+  width: 100%; 
   z-index: 1000;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
   border-radius: 18px;
   margin-bottom: 100px;
 }
@@ -111,8 +110,8 @@ p.mb-0{
   font-size: 2.5rem;
 }
 p.mb-0  strong {
-  color: var(--clr); /* Use the same variable for consistency */
-  font-weight: 600; /* Optional: Adjust font weight to match the design */
+  color: var(--clr); 
+  font-weight: 600; 
 }
 footer.blockquote-footer {
   font-weight: 500;
@@ -289,7 +288,7 @@ p#background {
 .skills-title {
   font-size: 1.5rem;
   font-weight: 600;
-  color: var(--clr); /* Matches your primary color */
+  color: var(--clr); 
   margin-bottom: 1rem;
 }
 
@@ -307,13 +306,13 @@ p#background {
   border-radius: 5px;
   margin: 5px 0;
   transition: background-color 0.3s ease, color 0.3s ease, box-shadow 0.3s ease;
-  background-color: rgba(0, 0, 0, 0.05); /* Slightly transparent background for subtle contrast */
+  background-color: rgba(0, 0, 0, 0.05); 
 }
 
 .skills-list li:hover {
-  background-color: var(--clr); /* Accent color on hover */
-  color: #fff; /* Change text color to white when hovered */
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add a shadow on hover for emphasis */
+  background-color: var(--clr); 
+  color: #fff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
 }
 
 /* Section Heading */
@@ -432,7 +431,6 @@ p#background {
   overflow: hidden;
 }
 
-/* New CSS for vertical image stack */
 .image-stack {
   display: flex;
   flex-direction: column;
@@ -442,7 +440,7 @@ p#background {
 
 .project-img {
   transition: transform 0.5s ease;
-  max-height: 230px; /* Increased height for bigger images */
+  max-height: 230px;
   width: 100%;
   object-fit: cover;
   border-radius: 8px;
@@ -609,7 +607,7 @@ strong.collab a:hover {
 
 
 .footer-spacer {
-  height: 1px; /* Adjust the space as needed */
+  height: 1px; 
   background-color: transparent;
 }
 /* FOOTER */

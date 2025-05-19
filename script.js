@@ -46,3 +46,11 @@ AOS.init({
      modalImage.src = item.getAttribute("href"); // Set the modal image source
    });
  });
+
+
+
+
+
+
+
+ 
